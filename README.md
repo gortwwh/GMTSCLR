@@ -3,6 +3,7 @@
 [METR_LA](https://github.com/chnsh/DCRNN_PyTorch) [PeMS](https://github.com/divanoresia/Traffic)
 ```python
 unzip mts/metr-la.h5.zip -d mts/
+mkdir save_pth/metr-la
 ```
 ## Train VAE Model
 ```python
