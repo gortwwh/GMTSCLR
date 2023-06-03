@@ -8,7 +8,7 @@ import argparse
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 parser = argparse.ArgumentParser()
-parser.add_argument("--dataset_name", default='tbm_yine_full', help='Dataset Name', type=str)
+parser.add_argument("--dataset_name", default='PeMSD8', help='Dataset Name', type=str)
 args = parser.parse_args()
 dataset_name = args.dataset_name
 path = './save_pth/' + dataset_name
